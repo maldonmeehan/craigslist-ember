@@ -1,11 +1,19 @@
 { "categories": [{
-    "name": "Cars"
+    "name": "Cars",
+    "expensiveCutoff": 4000,
+    "cheapCutoff": 2000
   }, {
-    "name": "Housing"
+    "name": "Housing",
+    "expensiveCutoff": 2000,
+    "cheapCutoff": 700
   }, {
-    "name": "Furniture"
+    "name": "Furniture",
+    "expensiveCutoff": 2000,
+    "cheapCutoff": 150
   }, {
-    "name": "Bikes"
+    "name": "Bikes",
+    "expensiveCutoff": 800,
+    "cheapCutoff": 80
   }],
   "listings": [{
       "title": "2 Bedroom Apartment",

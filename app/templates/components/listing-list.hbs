@@ -6,4 +6,9 @@
       {{listing-tile listing=listing}}
     {{/if}}
   {{/each}}
+  {{#each sortedListings as |listing|}}
+    {{#if (eq all selectedCategory)}}
+      {{listing-tile listing=listing}}
+    {{/if}}
+  {{/each}}
 </ul>
