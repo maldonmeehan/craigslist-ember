@@ -1,6 +1,6 @@
 
 <ul>
-  {{#each listings as |listing|}}
+  {{#each sortedListings as |listing|}}
     {{#if (eq listing.category.id selectedCategory.id)}}
       {{listing-tile listing=listing}}
     {{/if}}

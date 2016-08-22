@@ -13,7 +13,8 @@ export default Ember.Component.extend({
         image: this.get('image'),
         location: this.get('location'),
         cost: this.get('cost'),
-        category: this.get('category')
+        category: this.get('category'),
+        date: this.get('date')
       };
       this.set('updateListingForm', false);
       this.sendAction('update', listing, params);
