@@ -1,0 +1,10 @@
+{ "categories": [{
+    "name": "Cars"
+  }, {
+    "name": "Housing"
+  }, {
+    "name": "Furniture"
+  }, {
+    "name": "Bikes"
+  }]
+}

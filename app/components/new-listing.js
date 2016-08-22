@@ -13,7 +13,8 @@ export default Ember.Component.extend({
         details: this.get('details'),
         image: this.get('image') ? this.get('image'):"http://kingofwallpapers.com/house/house-026.jpg",
         location: this.get('location'),
-        cost: parseInt(this.get('cost'))
+        cost: parseInt(this.get('cost')),
+        category: this.get('category')
       };
       this.set('addNewListing', false);
       this.sendAction('saveListing', params);
