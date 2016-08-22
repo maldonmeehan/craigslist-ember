@@ -1,4 +1,5 @@
-
+<button {{action 'sortByCost'}}>Cheapest to Most Expensive</button>
+<button {{action 'sortByAge'}}>Newest to Oldest</button>
 <ul>
   {{#each sortedListings as |listing|}}
     {{#if (eq listing.category.id selectedCategory.id)}}
