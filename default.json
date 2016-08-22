@@ -1,0 +1,29 @@
+{ "categories": [{
+    "name": "Cars"
+  }, {
+    "name": "Housing"
+  }, {
+    "name": "Furniture"
+  }, {
+    "name": "Bikes"
+  }],
+  "listings": [{
+      "title": "2 Bedroom Apartment",
+      "details": "This spacious apartment has two bedrooms. Cats not permitted. Apartment complex has a pool and gym on site.",
+      "cost": 1400,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "SE Portland"
+  }, {
+      "title": "Studio Apartment",
+      "details": "This tiny apartment can house one full grown person. Cats permitted and required. Loud neighbours.",
+      "cost": 900,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "N Portland"
+  }, {
+      "title": "3 Bedroom House",
+      "details": "This beautiful house is in a very quiet neighborhood. Short walk to grocery store and MAX station.",
+      "cost": 2200,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "SW Portland"
+  }]
+}
